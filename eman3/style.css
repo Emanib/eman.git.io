@@ -1,0 +1,635 @@
+body 
+{
+/*  background-color: #888; */
+  height: 4000px;
+}
+.container
+{
+  width: 1170px;
+  margin: auto;
+}
+.clearfix
+{
+  clear: both;
+}
+.headr .slider 
+{
+  background-color: #EEE;
+  height: 400px;
+   background-image: url(r.gif  );
+  
+  
+}
+.headr .slider .intro 
+{
+  
+
+  height: 400px;
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+ 
+}
+.headr .slider .intro h2
+{
+  margin-top: 0 px;
+  font-size: 50px;
+  border-top :3px solid #fff;
+  border-bottom :3px solid #fff;
+  padding: 5px 0;
+  
+}
+.headr .slider .intro button 
+{
+  background: none;
+  width: 140px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 20px;
+  border :2px solid #fff;
+  font-weight: bold;
+}
+
+.headr .navbar 
+{
+  background-color: #252F31;
+  color :#F9FBF8;
+   overflow: auto;
+  
+}
+.headr .navbar h2 
+{
+  float: left;
+   text-transform: uppercase;
+ 
+  
+}
+.headr .navbar h2 span { color:#3FC177; }
+.headr .navbar ul 
+{
+  list-style: none;
+  padding-left: 0px;
+  overflow: hidden;
+  float: right;
+}
+.headr .navbar ul li 
+{
+  padding: 10px;
+  float: left;
+}
+
+.headr .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+ 
+}
+.headr .navbar ul li.active a,
+.headr .navbar ul li a:hover{
+  color:#31A566;
+} 
+
+ 
+
+/* start features */
+
+.features
+{
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.features .feat 
+{
+  float :left;
+  width :33.3333%;
+  height: 150px;
+  
+}
+
+.features .feat p {
+  line-height: 1.7;
+  color : #999;
+  padding : 0 25px 0 0 ;
+}
+.about-me 
+{
+  background-color: #F2F2F2;
+  overflow: hidden;
+  
+}
+
+.about-me  .image 
+{ float: left;
+    margin-left: 50px;
+}
+.about-me  .image img {
+  margin-top: 40px;
+  height: 500px;
+    width: 400px;
+  
+}
+.about-me .info {
+  float: left;
+  width: 60%;
+}
+.about-me .info h2 
+{
+  margin: 40px 0 20px 40px;
+}
+.about-me .info  > p 
+{
+  margin: 0 0 10px 40px;
+  
+}
+.about-me .info p :last-of-type 
+{
+  margin-top: 25px;
+}
+.about-me .info p 
+{
+  line-height: 1.6;
+  color: #666;
+}
+
+
+
+.about-me .info .hobbies
+{
+  overflow: hidden;
+  margin: 15px 0 0 40px;
+}
+.about-me .info .hobbies .content h3 
+{
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-me .info .hobbies .content 
+{
+  float: left; 
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.about-me .info .hobbies .content .icon
+{
+  float :left;
+  width :12%;
+  margin-right:2%;
+}
+.about-me .info .hobbies .content .icon img 
+{
+  max-width: 100%;
+  margin-top: 10px;
+ 
+}
+
+.about-me .info .hobbies .content .text
+{
+  float: left;
+  width : 86%;
+  
+}
+
+/*  skill */
+.my-skills 
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress 
+{
+  width: 50%;
+  float: left;
+}
+
+.my-skills .skills h2
+{
+  
+  margin: 40px 0 20px 40px;
+}
+.my-skills .skills p
+{
+  line-height: 1.6;
+  color: #666;
+  margin: 0 0 10px 40px;
+  
+}
+.my-skills .skills p :last-of-type
+{
+  margin-top: 25px;
+}
+
+.my-skills .skills button 
+{
+ /* background: none;
+  padding: 10px 30px;
+  border: 3px solid #25D17D ;
+  color: #25D17D; */
+  margin-left: 40px;
+  
+  margin-top: 20px;
+}
+.my-skills .progress .tec
+{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.my-skills .progress .tec h3
+{
+  color: #555;
+  
+}
+
+.my-skills .progress .tec div 
+{
+  background-color: #F2F2F2;
+  height: 25px;
+}
+.my-skills .progress .tec div span 
+{
+  background-color: #2DCC70;
+  height: 25px;
+  display: block;
+  text-align:right;
+  line-height: 25px;
+  color: #fff;
+}
+
+
+.resume 
+{
+  background-color: #F2F2F2;
+   padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  
+  
+}
+.resume button 
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.resume h2
+{
+  text-transform: uppercase;
+  color: #555;
+  font-weight: bold;
+}
+.resume p 
+{
+  line-height: 1.7;
+  color: #666;
+  padding: 0 20px;
+}
+
+
+
+
+/* eduction */
+.my-education 
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.my-education .main
+{
+     width: 50%;
+    float: left;
+  margin-right: 5%;
+}
+.my-education .exp {
+    width: 45%;
+    float: left;
+  
+}
+.my-education .exp h3 
+{
+  margin-top: 80px;
+  
+  margin-bottom: 10px;
+  color: #555;
+}
+.my-education .exp span 
+{
+  display: block;
+  
+  
+    margin-bottom: 10px;
+
+}
+.my-education .exp span :first-of-type 
+{
+  color: #666;
+}
+.my-education .exp  .cer hr 
+{
+  margin: 30px 0 ;
+  background-color: #999;
+  height: 1px;
+  border: 0;
+}
+.my-education .exp p 
+
+{
+  line-height: 1.7;
+  color: #777;
+}
+
+
+
+
+.my-education .main h2
+{
+  
+  margin: 40px 0 20px 40px;
+}
+.my-education .main p
+{
+  line-height: 1.6;
+  color: #666;
+  margin: 0 0 10px 40px;
+  
+}
+.my-education .main p :last-of-type
+{
+  margin-top: 25px;
+}
+
+
+
+
+
+
+/* end eduction */
+/* testimonials*/
+.testimonials {
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    float :left; 
+  width: 100%;
+  background-color: #F2F2F2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+}
+.testimonials q 
+{
+  line-height: 1.8;
+  font-size: 18px;
+  color : #666;
+  font-style: italic;
+  font-weight: bold;
+}
+.testimonials  h3 
+{
+  color: #444;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.testimonials ul 
+{ 
+  list-style: none; 
+  padding-left: 0;
+  text-align: center;
+  
+}
+
+.testimonials ul li
+{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #2DCC70 ;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover {background-color:#2DCC70}
+
+
+
+
+/*  end testimonials*/
+/* portofilo */
+
+.portfolio 
+{
+margin-top: 50px;
+  padding-bottom: 70px;
+ /* float: left; */
+  text-align: center;
+  padding-left: 50px;
+}
+.portfolio h2 
+{
+  color: #666;
+  text-transform: uppercase;
+}
+.portfolio p 
+{
+  line-height: 1.7;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+
+.portfolio .our-work
+{
+  overflow: hidden;
+}
+.portfolio .our-work > div 
+{
+  float: left;
+  width :33.333%;
+  margin-bottom: 10px;
+}
+
+.portfolio .our-work > div img 
+{
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/*  end portflio */
+
+
+/* start contact me  */ 
+
+.contact 
+{
+   /* float :left; */
+   background-color:#252F31;
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:70px
+
+  overflow: hidden;
+  width: 100%;
+}
+.contact h2 { 
+  color :#FEFFFF;
+  margin-left: 40px;
+}
+.contact p 
+{ 
+  color:#63686B;
+  margin-left: 40px;
+}
+.contact .info 
+{
+  width: 50%;
+ float: left; 
+  margin-right: 5%;
+}
+.contact .form
+{
+  width: 45%;
+  float: right;
+}
+.contact .form label {display:block;color:#D1D6DA;margin:10px 0}
+.contact .form input[type="text"]
+{
+      background-color:#4B5557;
+ color:#FFF;
+    padding:10px;
+    border:0;
+    width:70%;
+    margin-bottom:10px
+}
+.contact .form textarea
+{
+  background-color:#4B5557;
+    padding:100px 20px 0 100px;
+  border :0;
+  margin-top: 10px;
+  width: 70%;
+}
+.contact .form input[type="submit"] {
+    background-color:#191E22;
+    color:#FFF;
+    padding:10px 20px;
+    border:0;
+    margin-top:10px;
+  margin-bottom: 50px;
+  width: 30%;
+}
+
+/* end contact me  */ 
+/* footer */
+.footer 
+{
+ /* float :left; */
+  text-align: center; 
+  background-color: #191E22;
+  color: 
+#3E484A;
+  
+  padding: 20px 0px;
+  overflow: hidden;
+}
+.footer ul 
+{
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 ;
+}
+.footer ul li {display:inline-block}
+
+
+
+
+/* end footer */
+
+
+/* Start MY frame Work */
+
+.my-button 
+{
+   background: none;
+  padding: 10px 30px;
+  border: 3px solid #25D17D ;
+  color: #25D17D;
+  font-weight: bold;
+  font-size: 15px;
+
+ 
+}
+
+.eman 
+{
+  background-color:#2DCC70;
+  
+  display: inline-block;
+  color :#fff;
+  padding : 4px 10px;
+  margin-right: 450px;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* end My Frame Work */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
