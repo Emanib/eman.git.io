@@ -1,2 +1,0 @@
-# eman.git.io
-blog
